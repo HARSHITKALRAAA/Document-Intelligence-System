@@ -1,4 +1,4 @@
-# ContractLens
+# Document Intelligence System
 
 A focused document question answering app for text-based PDF contracts. It extracts text with page numbers, divides pages into passages, embeds them locally with Sentence Transformers, retrieves relevant passages by cosine similarity, and asks a Groq-hosted LLM to answer using those passages. Answers request `[S1]`-style citations, and the interface displays the original filename, page, passage, and similarity score.
 
